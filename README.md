@@ -6,19 +6,26 @@
 
 
 1. Работа выполнялась в среде Ubuntu 22.04. Установлены следующие 
-инструменты: 
+инструменты:
+ 
 ● clang — компилятор языка C/C++; 
+
 ● llvm — инструменты анализа и оптимизации кода; 
+
 ● opt — инструмент для работы с LLVM IR и применения 
 оптимизаций; 
+
 ● Graphviz — инструмент для визуализации кода. 
+
 Команда установки: sudo apt install clang llvm
 
 ![image](https://github.com/user-attachments/assets/d59abf23-1eb9-4d65-b9fa-64e8474e5aad)
 
 ---
-2. Исходный код 
+2. Исходный код
+   
 Программа на языке C: 
+
 #include <stdio.h> 
 int square(int x) { 
       return x * x; 
@@ -29,6 +36,7 @@ int b = square(a);
 printf("%d\n", b); 
 return 0; 
 } 
+
 Сохранена в файл main.c.
 ![image](https://github.com/user-attachments/assets/95ce485b-7981-40e7-ab27-1532defdfffc)
 ---
